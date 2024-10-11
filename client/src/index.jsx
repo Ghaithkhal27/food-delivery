@@ -6,6 +6,7 @@ import Restaurants from './components/restaurants.jsx';
 const App = () => {
   const [items, setItems] = useState([]);
   const[refrech,setrefrech]=useState(true)
+
   useEffect(() => {
     $.ajax({
       url: 'http://localhost:3000/api/restaurants',
@@ -46,11 +47,11 @@ const App = () => {
       },
     });
   }
+  
 
   return (
     <div>
-      <h1>Restaurants List</h1>
-      <Restaurants List={items} remove={remove} add={add} />
+      <Restaurants List={items} remove={remove} add={add}  />
     </div>
   );
 };

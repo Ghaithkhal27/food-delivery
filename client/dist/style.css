@@ -1,6 +1,7 @@
 body {
     font-family: "Lobster", sans-serif;
-    background-color: #f4f4f4;
+    background-color: #bee0c0;
+    
    
   }
   
@@ -26,10 +27,12 @@ body {
     width: 50%;
     border-radius: 4px;
   }
+
   
   .buttonRemove{
     display: flex;
     justify-content: center;
+    
   }
   
   button {
@@ -38,15 +41,40 @@ body {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
+  
     
   
    
+  }
+  
+  .the-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
   }
  
   .p{
     font-size: 20px;
     color: #00ff22da;
     text-align: center;
+  }
+  .Menuname{
+    color: #000;
+    background-color: aqua;
+    border-radius: 15px;
+  }
+  .menudelete{
+    
+    width: 60px;
+    height: 30px;
+
+  }
+  #input{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: none;
+
   }
   
   
